@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>div tag</title>
+    <style>
+       #first_div{
+            width: 300px;
+           height: 250px;
+           background-color:#FF5C81;
+           border:solid 1px white;
+           margin-left:auto;
+
+           margin-right: auto;
+           margin-top:200px;
+           border-radius: 5%;
+           border-top-left-radius: 10%;
+           border-top-right-radius: 10%;
+           border: 0;
+
+
+       }
+        #inner_div{
+            width: 300px;
+            height: 60px;
+            border: 0;
+            padding: 0;
+
+        }
+        .form_but{
+             text-align: center;
+            margin-top:0;
+            border-radius: 5%;
+            border: 0;
+            padding: 0;
+            width: 142px;
+            height:50px ;
+            margin-left: 4px;
+            margin-top: 2px;
+            font-size: x-large;
+            background-color:#22FFDF;
+            
+
+
+        }
+        #signup_div{
+            margin-top: 20px;
+            text-align: center;
+            height: 200px;
+
+        }
+       .signup_texts{
+           border-color: white;
+           border-bottom-color: #222277;
+           border-bottom: 3px;
+           width: 250px;
+           height: 25px;
+           margin-bottom: 10px;
+           font-size: auto;
+       }
+
+
+        #signup_div button{
+            width: 70px;
+            height: 30px;
+        }
+         #signin_div{
+            margin-top: 20px;
+            text-align: center;
+            height: 200px;
+
+        }
+
+
+        .signin_texts{
+           border-color: white;
+           border-bottom-color: #222277;
+           border-bottom: 3px;
+           width: 250px;
+           height: 25px;
+           margin-bottom: 10px;
+           font-size: auto;
+       }
+
+        #signin_div button{
+            width: 70px;
+            height: 30px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="first_div">
+    <div id="inner_div">
+   <button class="form_but"  id="form_but_id1" type="button">signup</button>
+        <button class="form_but" id="form_but_id2" type="button" style="visibility: collapse">signin</button>
+    </div>
+    <div id="signup_div">
+        <input class="signup_texts" type="text" placeholder="email">
+        <input class="signup_texts" type="password" placeholder="password">
+        <input class="signup_texts" type="password" placeholder="re-enter password">
+       <button type="submit">click</button>
+
+    </div>
+    <div id="signin_div">
+        <input class="signin_texts" type="text" placeholder="email">
+        <input class="signin_texts" type="password" placeholder="password">
+
+       <button type="submit">signin</button>
+    </div>
+
+</div>
+
+
+</body>
+</html>
